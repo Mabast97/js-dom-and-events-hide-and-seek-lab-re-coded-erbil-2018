@@ -25,6 +25,28 @@ function increaseRankBy(val)
 }
 
 
+<<<<<<< HEAD
+=======
+// function deepestChild()
+// {
+//   let currentElement = document.getElementById('#grand-node');
+//   let nextElement = currentElement.children[0];
+  
+//   while(currentElement)
+//   {
+//     currentElement = nextElement;
+//     nextElement = currentElement.children[0];
+//   }
+  
+//   return nextElement;
+// }
+
+
+function nestedTarget() {
+  return document.querySelector('#nested .target')
+}
+
+>>>>>>> a61c0928574e7bc53d6702bcf9923d493ff1397b
 function deepestChild() {
   let node = document.getElementById('grand-node')
   let nextNode = node.children[0]
@@ -36,3 +58,14 @@ function deepestChild() {
 
   return node
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+>>>>>>> a61c0928574e7bc53d6702bcf9923d493ff1397b
